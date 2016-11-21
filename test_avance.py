@@ -21,4 +21,6 @@ client_01.nom = oNom
 client_01.retirer_argent(oMontant)
 client_02 = Banque()
 client_02.nom = "toto"
-print("le nouveau client s\'appele {0}".format(client_02.nom))
+client_02.balance = 600
+print("le nouveau client s\'appele {0} et a dans son compte {1} euro".format(client_02.nom,client_02.balance))
+
