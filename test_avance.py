@@ -19,3 +19,5 @@ class Banque:
 client_01 = Banque()
 client_01.nom = oNom
 client_01.retirer_argent(oMontant)
+client_02 = banque()
+client_02.nom = "toto"
